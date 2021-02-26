@@ -16,8 +16,8 @@ module.exports = async function GetAvailableAppointments(browser) {
     // The best we can do is render the time in two timezones, parse those as dates
     // and subtract them, and convert them from milliseconds to hours.
     const now = new Date(); // 2021-02-20T04:52:15.444Z
-    const offsetMountain =
-        ["America/Denver", "UTC"]
+    const offsetEastern =
+        ["America/New_York", "UTC"]
             .map((z) =>
                 Date.parse(now.toLocaleString("en-US", { timeZone: z }))
             )
@@ -25,9 +25,9 @@ module.exports = async function GetAvailableAppointments(browser) {
         (3600 * 1000);
     // This would fail if offsetMountain were 2 digits, but it will only ever be 6 or 7.
     const timestamp = new Date(
-        `${webData.responsePayloadData.currentTime}-0${offsetMountain}:00`
+        `${webData.responsePayloadData.currentTime}-0${offsetEastern}:00`
     );
-    return webData.responsePayloadData.data.MA.map((responseLocation) => {
+    return webData.responsePayloadData.data.OH.map((responseLocation) => {
         // Prior to Feb 22 or so, CVS's JSON returned:
         //  {
         //    "totalAvailable": "0",
