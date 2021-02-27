@@ -1,0 +1,29 @@
+[
+    {
+        "ar_id": 125.0,
+        "ar_reason": "Moderna Dose 1",
+        "ar_order": 1.0,
+        "grp_ar_reason": "Moderna COVID-19 Vaccine",
+        "grp_ar_order": 2.0,
+        "appt_days_ahead_max": 7.0,
+        "appt_days_ahead_min": 0.0
+    },
+    {
+        "ar_id": 126.0,
+        "ar_reason": "Moderna Dose 2",
+        "ar_order": 2.0,
+        "grp_ar_reason": "Moderna COVID-19 Vaccine",
+        "grp_ar_order": 2.0,
+        "appt_days_ahead_max": 90.0,
+        "appt_days_ahead_min": 0.0
+    },
+    {
+        "ar_id": 83.0,
+        "ar_reason": "Other",
+        "ar_order": 11.0,
+        "grp_ar_reason": "Vaccines",
+        "grp_ar_order": 1000.0,
+        "appt_days_ahead_max": 40.0,
+        "appt_days_ahead_min": 0.0
+    }
+]
