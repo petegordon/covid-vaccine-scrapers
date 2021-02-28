@@ -1,0 +1,6 @@
+{
+    "sec-cp-challenge": "true",
+    "provider": "recaptcha",
+    "provider_secret_public": "6LeeGHcUAAAAAOW1rCyLUnFb8-FmHFHGgnzl04R4",
+    "branding_url_content": "%2frx-captcha%2fvaccine.html"
+}
