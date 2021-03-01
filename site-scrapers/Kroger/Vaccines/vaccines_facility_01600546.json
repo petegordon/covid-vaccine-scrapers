@@ -1,1 +1,29 @@
-[{"ar_id":125,"ar_reason":"Moderna Dose 1","ar_order":1,"grp_ar_reason":"Moderna COVID-19 Vaccine","grp_ar_order":2,"appt_days_ahead_max":7,"appt_days_ahead_min":0},{"ar_id":126,"ar_reason":"Moderna Dose 2","ar_order":2,"grp_ar_reason":"Moderna COVID-19 Vaccine","grp_ar_order":2,"appt_days_ahead_max":90,"appt_days_ahead_min":0},{"ar_id":83,"ar_reason":"Other","ar_order":11,"grp_ar_reason":"Vaccines","grp_ar_order":1000,"appt_days_ahead_max":40,"appt_days_ahead_min":0}]
+[
+  {
+    "ar_id": 125,
+    "ar_reason": "Moderna Dose 1",
+    "ar_order": 1,
+    "grp_ar_reason": "Moderna COVID-19 Vaccine",
+    "grp_ar_order": 2,
+    "appt_days_ahead_max": 7,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 126,
+    "ar_reason": "Moderna Dose 2",
+    "ar_order": 2,
+    "grp_ar_reason": "Moderna COVID-19 Vaccine",
+    "grp_ar_order": 2,
+    "appt_days_ahead_max": 90,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 83,
+    "ar_reason": "Other",
+    "ar_order": 11,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 40,
+    "appt_days_ahead_min": 0
+  }
+]

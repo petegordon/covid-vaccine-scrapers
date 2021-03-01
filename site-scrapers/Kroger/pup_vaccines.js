@@ -4,8 +4,16 @@ const puppeteer = require('puppeteer-extra')
 const StealthPlugin = require('puppeteer-extra-plugin-stealth')
 puppeteer.use(StealthPlugin())
 
-storesParam = JSON.parse(fs.readFileSync('all_stores.json'))
-storesParam = storesParam.slice(0,3);
+storesParam = JSON.parse(fs.readFileSync('all_facilities.json'))
+vaccinesDir = "/Users/petegordon/CantStopColumbus/covid-vaccine-scrapers/site-scrapers/Kroger/Vaccines/"
+
+let storesProcessed = fs.readdirSync(vaccinesDir)
+vaccineLocationProcessed = storesProcessed.map((f) => { return f.split('_')[2].split('.')[0]})
+storesParam = storesParam.filter((z) => !vaccineLocationProcessed.includes(z))
+console.log("create storesParam length:"+storesParam.length);
+
+
+storesParam = storesParam.slice(0,10);
 
 (async () => {
     console.log('store facility codes:'+storesParam)
@@ -24,7 +32,7 @@ storesParam = storesParam.slice(0,3);
                 console.log(response.url())
                 console.log(response.status())      
                 json = await response.json()
-                console.log(json)
+             //   console.log(json)
                 fs.writeFileSync('/Users/petegordon/CantStopColumbus/covid-vaccine-scrapers/site-scrapers/Kroger/Vaccines/vaccines_facility_'+facilityCode+'.json', JSON.stringify(json, null, 2))
                 pageTwo.close()                
             }
@@ -32,6 +40,6 @@ storesParam = storesParam.slice(0,3);
         await pageTwo.goto('https://www.kroger.com/rx/api/anonymous/scheduler/reasons/pharmacy/'+facilityCode);    
     }
 
-    storesParam.forEach((facility) => getVaccinesByFacilityCode(facility.facilityId))
+    storesParam.forEach((facility) => getVaccinesByFacilityCode(facility))
 
 })();

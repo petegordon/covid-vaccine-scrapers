@@ -1,0 +1,119 @@
+[
+  {
+    "ar_id": 125,
+    "ar_reason": "Moderna Dose 1",
+    "ar_order": 1,
+    "grp_ar_reason": "Moderna COVID-19 Vaccine",
+    "grp_ar_order": 2,
+    "appt_days_ahead_max": 7,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 126,
+    "ar_reason": "Moderna Dose 2",
+    "ar_order": 2,
+    "grp_ar_reason": "Moderna COVID-19 Vaccine",
+    "grp_ar_order": 2,
+    "appt_days_ahead_max": 90,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 73,
+    "ar_reason": "Flu (Influenza)",
+    "ar_order": 1,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 74,
+    "ar_reason": "Hepatitis A",
+    "ar_order": 2,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 75,
+    "ar_reason": "Hepatitis B",
+    "ar_order": 3,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 76,
+    "ar_reason": "Tdap (Tetanus, Diphtheria, Pertussis)",
+    "ar_order": 4,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 77,
+    "ar_reason": "Pneumonia",
+    "ar_order": 5,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 78,
+    "ar_reason": "Shingles",
+    "ar_order": 6,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 79,
+    "ar_reason": "Meningitis (Meningococcal)",
+    "ar_order": 7,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 80,
+    "ar_reason": "HPV (Human Papilloma Virus)",
+    "ar_order": 8,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 81,
+    "ar_reason": "Chickenpox (Varicella)",
+    "ar_order": 9,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 8,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 82,
+    "ar_reason": "Measles/Mumps/Rubella",
+    "ar_order": 10,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 1,
+    "appt_days_ahead_min": 0
+  },
+  {
+    "ar_id": 83,
+    "ar_reason": "Other",
+    "ar_order": 11,
+    "grp_ar_reason": "Vaccines",
+    "grp_ar_order": 1000,
+    "appt_days_ahead_max": 40,
+    "appt_days_ahead_min": 0
+  }
+]
